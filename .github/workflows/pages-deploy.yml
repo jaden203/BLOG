@@ -29,7 +29,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true  # 필요한 경우 사용하세요
 
       - name: ⚙️ Setup GitHub Pages
         id: pages
@@ -46,12 +45,12 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: 🔍 Site check (HTML-Proofer with skipped checks)
+      - name: 🔍 Site check (html-proofer 안정 버전)
         run: |
-          # 외부 링크 검사 비활성화, HTTPS 강제 검사 비활성화, 일부 검사 무시
+          # 외부 링크 검사 비활성화 및 일부 검사 무시
           bundle exec htmlproofer _site \
             --disable-external \
-            --enforce-https=false \
+            --no-enforce-https \
             --checks-to-ignore Images,Links,Scripts
 
       - name: 📦 Upload site artifact
