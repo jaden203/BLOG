@@ -22,7 +22,7 @@ description: 미니멀한 블로그를 구축하겠습니다
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://itbloger.kro.kr"
 
 github:
   username: jaden203
