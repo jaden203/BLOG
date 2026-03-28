@@ -1,19 +1,20 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TWRDMKH8BH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google Analytics 4 코드 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWRDMKH8BH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TWRDMKH8BH');
+  </script>
+</head>
+<body>
 
-  gtag('config', 'G-TWRDMKH8BH');
-</script>
-
-<!-- 기존 giscus 스크립트 -->
+<!-- giscus 댓글 스크립트 -->
 <script src="https://giscus.app/client.js"
         data-repo="jaden203/BLOG"
         data-repo-id="R_kgDOPXFTCg"
@@ -30,3 +31,6 @@ layout: home
         crossorigin="anonymous"
         async>
 </script>
+
+</body>
+</html>
