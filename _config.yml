@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 지워니가 윤영하는 블로그
+title: 지워니가 운영하는 블로그
 
 tagline: it 기술 관련 블로그입니당
 
@@ -34,7 +34,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: 김지원
-  email: admin@codeup.kro.kr # change to your email address
+  email: nixnix214@naver.com# change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
@@ -57,8 +57,7 @@ webmaster_verifications:
 
 # Web Analytics Settings
 analytics:
-  google:
-    id: # fill in your Google Analytics ID
+  google: G-TWRDMKH8BH
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
